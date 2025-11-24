@@ -51,6 +51,11 @@ export const IconPencil = ({ size = 24, color = "#333" }) => {
   );
 };
 
+export const IconPlus = () => (
+  <Svg width="25" height="24" viewBox="0 0 25 24" fill="none">
+    <Path d="..." fill="#B872FF" />
+  </Svg>
+);
 
 export const IconTrash = ({ size = 24, color = "#333" }) => {
   return (
